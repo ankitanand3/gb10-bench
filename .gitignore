@@ -1,0 +1,14 @@
+# Raw benchmark output — regenerate with sweep.py, do not commit until reviewed
+results/*.json
+sweep.log
+build.log
+
+# Models are 90-170GB each. Never.
+models/
+*.gguf
+
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store

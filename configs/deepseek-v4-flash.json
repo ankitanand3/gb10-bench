@@ -1,0 +1,16 @@
+{
+  "name": "DeepSeek V4 Flash 0731 — Unsloth UD quants on one GB10 (128GB class)",
+  "repo": "unsloth/DeepSeek-V4-Flash-0731-GGUF",
+  "source_claim": {
+    "url": "https://x.com/danielhanchen/status/2083337492653396223",
+    "note": "Sizes and quality published 2026-07-31 with no speeds and no fits/doesn't-fit verdict. Unsloth separately told 627k people this runs '3-bit on 110GB RAM'. Units (GB vs GiB) are not stated, which is part of what this measures."
+  },
+  "context_steps": [4096, 8192, 16384, 32768, 65536, 131072],
+  "quants": [
+    { "label": "UD-Q2_K_XL", "listed_size": "97GB",  "listed_quality": "79%" },
+    { "label": "UD-IQ3_S",   "listed_size": "117GB", "listed_quality": "83%" },
+    { "label": "UD-Q3_K_XL", "listed_size": "129GB", "listed_quality": "87%" },
+    { "label": "UD-Q4_K_XL", "listed_size": "155GB", "listed_quality": "96%" },
+    { "label": "UD-Q8_K_XL", "listed_size": "162GB", "listed_quality": "100%" }
+  ]
+}
