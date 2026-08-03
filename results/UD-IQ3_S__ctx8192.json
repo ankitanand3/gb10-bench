@@ -1,0 +1,37 @@
+{
+ "label": "UD-IQ3_S",
+ "ctx": 8192,
+ "model_path": "/home/ankitanand/models/UD-IQ3_S/DeepSeek-V4-Flash-0731-UD-IQ3_S-00001-of-00004.gguf",
+ "model_bytes": 116069339712,
+ "model_gib": 108.1,
+ "model_gb_decimal": 116.1,
+ "n_prompt": 512,
+ "n_gen": 128,
+ "ngl": 999,
+ "load_mode": "mmap",
+ "n_depth": 8192,
+ "effective_ctx": 8832,
+ "mem_total_gib": 121.69,
+ "mem_available_before_gib": 118.24,
+ "started_at": "2026-08-03T00:35:58",
+ "command": "/home/ankitanand/llama.cpp/build/bin/llama-bench -m /home/ankitanand/models/UD-IQ3_S/DeepSeek-V4-Flash-0731-UD-IQ3_S-00001-of-00004.gguf -d 8192 -p 512 -n 128 -ngl 999 -lm mmap -r 3 -o json",
+ "wall_seconds": 586.4,
+ "peak_memory_used_gib": 110.34,
+ "mem_available_low_gib": 7.9,
+ "returncode": 0,
+ "timed_out": false,
+ "oom": false,
+ "loaded": true,
+ "status": "ok",
+ "prefill": {
+  "tokens_per_second": 338.1,
+  "stddev_ts": 1.97,
+  "samples": 3
+ },
+ "decode": {
+  "tokens_per_second": 15.96,
+  "stddev_ts": 0.03,
+  "samples": 3
+ },
+ "stderr_tail": "ggml_cuda_init: found 1 CUDA devices (Total VRAM: 124610 MiB):\n  Device 0: NVIDIA GB10, compute capability 12.1, VMM: yes, VRAM: 124610 MiB\n"
+}

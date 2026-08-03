@@ -1,5 +1,4 @@
-# Raw benchmark output — regenerate with sweep.py, do not commit until reviewed
-results/*.json
+# Raw benchmark output IS the artifact — committed on purpose so anyone can check it.
 sweep.log
 build.log
 

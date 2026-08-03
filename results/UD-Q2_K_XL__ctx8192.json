@@ -1,0 +1,37 @@
+{
+ "label": "UD-Q2_K_XL",
+ "ctx": 8192,
+ "model_path": "/home/ankitanand/models/UD-Q2_K_XL/DeepSeek-V4-Flash-0731-UD-Q2_K_XL-00001-of-00003.gguf",
+ "model_bytes": 96832508352,
+ "model_gib": 90.18,
+ "model_gb_decimal": 96.8,
+ "n_prompt": 512,
+ "n_gen": 128,
+ "ngl": 999,
+ "load_mode": "mmap",
+ "n_depth": 8192,
+ "effective_ctx": 8832,
+ "mem_total_gib": 121.69,
+ "mem_available_before_gib": 118.09,
+ "started_at": "2026-08-02T22:36:50",
+ "command": "/home/ankitanand/llama.cpp/build/bin/llama-bench -m /home/ankitanand/models/UD-Q2_K_XL/DeepSeek-V4-Flash-0731-UD-Q2_K_XL-00001-of-00003.gguf -d 8192 -p 512 -n 128 -ngl 999 -lm mmap -r 3 -o json",
+ "wall_seconds": 496.4,
+ "peak_memory_used_gib": 92.44,
+ "mem_available_low_gib": 25.65,
+ "returncode": 0,
+ "timed_out": false,
+ "oom": false,
+ "loaded": true,
+ "status": "ok",
+ "prefill": {
+  "tokens_per_second": 321.68,
+  "stddev_ts": 16.25,
+  "samples": 3
+ },
+ "decode": {
+  "tokens_per_second": 16.78,
+  "stddev_ts": 0.12,
+  "samples": 3
+ },
+ "stderr_tail": "ggml_cuda_init: found 1 CUDA devices (Total VRAM: 124610 MiB):\n  Device 0: NVIDIA GB10, compute capability 12.1, VMM: yes, VRAM: 124610 MiB\n"
+}
