@@ -77,6 +77,10 @@ command, same depths.
 Decode changes by under 3% at every depth. Prefill loses 2-12%, growing with depth. **At batch
 1, a second box buys capacity, not speed.** If the model fits on one box, run it on one box.
 
+Side table: the same model's UD-Q8_K_XL (29.3 GiB) on one box decodes at 7.40 tok/s at 4K vs
+12.14 for Q4_K_XL (16.3 GiB) — 39% slower for 80% more bytes. Decode speed on this box is the
+quant size; prefill barely moves (759 vs 816 tok/s).
+
 ## The one-box verdict on the 129GB rung
 
 Same file, same command, second box removed: `llama_bench: error: failed to load model`,
