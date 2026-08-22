@@ -1,0 +1,4 @@
+---128K---
+OUTPUTS_IDENTICAL
+out1:  that a swap file is used to store data that is not currently in use, while a page cache is used to store data that is c
+out2:  that a swap file is used to store data that is not currently in use, while a page cache is used to store data that is c

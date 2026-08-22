@@ -3,6 +3,12 @@
 Measure which quantized models actually run on an NVIDIA GB10 box, how fast, and where they run
 out of memory.
 
+**Results so far:**
+- [RESULTS.md](RESULTS.md) — one box: the DeepSeek V4 Flash quant ladder, 4K to 128K context.
+- [RESULTS-TWOBOX.md](RESULTS-TWOBOX.md) — two boxes over 200GbE: the 129GB rung that fits on
+  neither box alone, llama.cpp RPC (it negotiated RDMA on its own), plus the split-cost
+  control, a determinism check, and KV-per-token across architectures.
+
 ## Why this exists
 
 People publish model sizes. A 117 GB model on a 128 GB machine looks like it fits.
